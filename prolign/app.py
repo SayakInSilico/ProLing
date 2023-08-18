@@ -1,4 +1,4 @@
-from protlign import app
+from prolign import app
 
 
 if __name__ == "__main__":

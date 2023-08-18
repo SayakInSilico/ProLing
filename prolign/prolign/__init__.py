@@ -9,4 +9,4 @@ app = Flask(__name__)
 # Secret Key
 app.config["SECRET_KEY"] = os.environ.get('PORTALIGN_SECRET_KEY')
 
-from protlign import routes
+from prolign import routes

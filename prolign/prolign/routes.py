@@ -1,10 +1,10 @@
 from __future__ import annotations
 from flask import render_template, url_for
-from protlign import app
-from protlign.forms import InputForm
-from protlign.fetch_utils import ncbi_sequence_fetcher
-from protlign.parse_utils import fasta_sequence_parser, text_sequence_parser
-from protlign.alignment_generator import needleman_wunsch_global_alignment
+from prolign import app
+from prolign.forms import InputForm
+from prolign.fetch_utils import ncbi_sequence_fetcher
+from prolign.parse_utils import fasta_sequence_parser, text_sequence_parser
+from prolign.alignment_generator import needleman_wunsch_global_alignment
 
 
 # ----------------------------------------------------------------------------------------------------------------------
